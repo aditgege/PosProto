@@ -1,0 +1,68 @@
+import type { CategoryButton } from './types'
+
+export const categoryMockData: CategoryButton[] = [
+  {
+    id: 'breakfast',
+    icon: 'solar:cup-hot-bold',
+    title: 'Breakfast',
+    description: '13 items',
+    color: 'bg-emerald-100',
+    itemCount: 13,
+  },
+  {
+    id: 'soups',
+    icon: 'tabler:soup-filled',
+    title: 'Soups',
+    description: '8 items',
+    color: 'bg-pink-200',
+    itemCount: 8,
+  },
+  {
+    id: 'pasta',
+    icon: 'icon-park-solid:noodles',
+    title: 'Pasta',
+    description: '10 items',
+    color: 'bg-cyan-100',
+    itemCount: 10,
+  },
+  {
+    id: 'sushi',
+    icon: 'bxs:sushi',
+    title: 'Sushi',
+    description: '15 items',
+    color: 'bg-purple-200',
+    itemCount: 15,
+  },
+  {
+    id: 'main-course',
+    icon: 'i-lucide-cooking-pot',
+    title: 'Main course',
+    description: '7 items',
+    color: 'bg-pink-100',
+    itemCount: 7,
+  },
+  {
+    id: 'desserts',
+    icon: 'tabler:bowl-chopsticks-filled',
+    title: 'Desserts',
+    description: '9 items',
+    color: 'bg-stone-100',
+    itemCount: 9,
+  },
+  {
+    id: 'drinks',
+    icon: 'i-lucide-coffee',
+    title: 'Drinks',
+    description: '11 items',
+    color: 'bg-rose-100',
+    itemCount: 11,
+  },
+  {
+    id: 'alcohol',
+    icon: 'i-lucide-wine',
+    title: 'Alcohol',
+    description: '12 items',
+    color: 'bg-green-100',
+    itemCount: 12,
+  },
+]
