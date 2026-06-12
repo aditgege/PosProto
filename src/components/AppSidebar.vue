@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { DropdownMenuItem, NavigationMenuItem } from '@nuxt/ui'
+import { defineShortcuts, extractShortcuts } from '@nuxt/ui/composables'
 import { useColorMode } from '@vueuse/core'
 import { computed, ref } from 'vue'
 
