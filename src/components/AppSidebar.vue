@@ -108,7 +108,7 @@ const userItems = computed<DropdownMenuItem[][]>(() => [
           checked: colorMode.value === 'light',
           onUpdateChecked(checked: boolean) {
             if (checked)
-              colorMode.preference = 'light'
+              colorMode.value = 'light'
           },
           onSelect(e: Event) {
             e.preventDefault()
@@ -121,7 +121,7 @@ const userItems = computed<DropdownMenuItem[][]>(() => [
           checked: colorMode.value === 'dark',
           onUpdateChecked(checked: boolean) {
             if (checked)
-              colorMode.preference = 'dark'
+              colorMode.value = 'dark'
           },
           onSelect(e: Event) {
             e.preventDefault()

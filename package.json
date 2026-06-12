@@ -29,5 +29,11 @@
     "typescript": "~6.0.2",
     "vite": "^8.0.12",
     "vue-tsc": "^3.2.8"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "vue-demi"
+    ]
   }
 }

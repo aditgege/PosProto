@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import type { DropdownMenuItem } from '@nuxt/ui'
 import { AnimatePresence, motion } from 'motion-v'
 import { computed, reactive, ref } from 'vue'
 import { getProductById } from '@/data/productMockData'
@@ -108,44 +107,6 @@ function onPointerUp() {
     swipeOffset[id] = 0
   }
 }
-
-const user = {
-  name: 'Benjamin Canac',
-  avatar: {
-    src: 'https://github.com/benjamincanac.png',
-    alt: 'Benjamin Canac',
-  },
-}
-
-const userItems = computed<DropdownMenuItem[][]>(() => [
-  [
-    {
-      label: 'Profile',
-      icon: 'i-lucide-user',
-    },
-    {
-      label: 'Billing',
-      icon: 'i-lucide-credit-card',
-    },
-    {
-      label: 'Settings',
-      icon: 'i-lucide-settings',
-      to: '/settings',
-    },
-  ],
-  [
-    {
-      label: 'GitHub',
-      icon: 'i-simple-icons-github',
-      to: 'https://github.com/nuxt/ui',
-      target: '_blank',
-    },
-    {
-      label: 'Log out',
-      icon: 'i-lucide-log-out',
-    },
-  ],
-])
 </script>
 
 <template>
